@@ -1,5 +1,5 @@
-//                                    <p>Video 110 Udemy Exercises</p>
-  
+//                                      Video 110 Udemy Exercises
+ 
  // Guess what answers you would get if you ran this in the Javascript Console in Google Chrome.
 
 //Evaluate the below:
@@ -35,7 +35,7 @@
 
 
 
-//                            <P>Video 112 Udemy Exercises</p>
+//                               Video 112 Udemy Exercises
 
 // Evaluate what answers you would get if you ran this in the Javascript Console in Google Chrome.
 
@@ -60,3 +60,17 @@ a + b // what is the answer here?
 var c;
 
 //Undefined since not assigned
+
+//                                  Video 113 Udemy Exercises 
+
+// Make a Calculator! using prompt(), and variables, make a program that does the following:
+// 1. Prompts the user for first number.
+// 2. Stores that first number
+// 3. Prompts the user for the second number.
+// 4. stores that number and responds with the SUM by using an alert.  
+
+// BONUS: Make a program that can subtract, multiply, and also divide!
+
+let firstNumber = prompt("Enter first number");
+let secondNumber = prompt("Enter second number");
+let sum = alert(Number(firstNumber) + Number(secondNumber));
