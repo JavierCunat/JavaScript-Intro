@@ -76,7 +76,7 @@ let secondNumber = prompt("Enter second number");
 let sum = alert(Number(firstNumber) + Number(secondNumber));
 
 
-//                                 Video 116 Udemy Exercises
+//                                   Video 116 Udemy Exercises
 
 // Make a keyless car!
 // This car will only let you drive if you are over 18. Make it do the following:
@@ -105,4 +105,64 @@ else if (Number(ageCalculator) > 18) {
 }
 else if (Number(ageCalculator) >= 80){
     alert("You shouldnt be driving at this age.");
+}
+
+
+//                                  Video 119 Udemy Exercises
+
+
+//1. Make the above code have a function called checkDriverAge(). Whenever you call this function, you will get prompted for age. Use Function Declaration to create this function.
+// Notice the benefit in having checkDriverAge() instead of copying and pasting the function everytime?
+
+//2. Create another function that does the same thing, called checkDriverAge2() using Function Expression.
+
+//BONUS: Instead of using the prompt. Now, only use console.log and make the checkDriverAge() function accept an argument of age, so that if you enter:
+// checkDriverAge(92);
+// it returns "Powering On. Enjoy the ride!
+
+let a = function checkDriverAge() {
+
+    let ageCalculator = prompt("What is your age?");
+
+    if (Number(ageCalculator) < 18) {
+        alert("Sorry you are too young to drive this car, powering off.");
+    }
+    else if (Number(ageCalculator) === 18) {
+        alert("Congragulations on your first year driving. Enjoy the ride!");
+    }
+    else if (Number(ageCalculator) > 18) {
+        alert("Powering on. Enjoy your ride");
+    }
+    else if (Number(ageCalculator) >= 80){
+        alert("You shouldnt be driving at this age.");
+    }
+}
+
+let checkDriverAge2 = function(){
+    let ageCalculator = prompt("What is your age?");
+
+if (Number(ageCalculator) < 18) {
+    alert("Sorry you are too young to drive this car, powering off.");
+}
+else if (Number(ageCalculator) === 18) {
+    alert("Congragulations on your first year driving. Enjoy the ride!");
+}
+else if (Number(ageCalculator) > 18) {
+    alert("Powering on. Enjoy your ride");
+}
+else if (Number(ageCalculator) >= 80){
+    alert("You shouldnt be driving at this age.");
+}
+}
+
+fucntion checkDriverAge(ageCalculator){
+   // let ageCalculator = console.log("What is your age")
+
+   if (Number(ageCalculator) < 18) {
+       return "Sorry you are too young to drive this car, powering off.";
+   } else if (Number(ageCalculator) === 18 ) {
+       return "Congragulations on your first year of driving. Enjoy the ride!"
+   } else if (Number(ageCalculator) > 18) {
+       return "Powering on. Enjoy your ride"
+   }
 }
