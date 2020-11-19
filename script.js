@@ -179,7 +179,7 @@ let a = fucntion checkDriverAge(ageCalculator){
 
 // 3. Put "Kiwi" at the end of the array.
 
-// 4. Remove "Apples" from the array.
+/// 4. Remove "Apples" from the array.
 
 // 5. Sort the array in reverse order. (Not alphabetical, but reverse
 // the current Array i.e. ['a', 'c', 'b'] becomes ['b', 'c', 'a'])
@@ -206,3 +206,44 @@ array.reverse(); //puts array in reverse order
 let array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
 
 console.log(array2[1][1][0]);
+
+
+//                                       Video 123 Udemy Exercises
+
+// Create an object and an array which we will use in our facebook exercise. 
+
+// 1. Create an object that has properties "username" and "password". Fill those values in with strings.
+
+// 2. Create an array which contains the object you have made above and name the array "database".
+
+// 3. Create an array called "newsfeed" which contains 3 objects with properties "username" and "timeline".
+
+let facebook = {
+    username: "guest",
+    password: "cchscchs"
+}
+
+let database = [
+    {
+        username: "guest",
+        password: "cchscchs"
+    }
+]
+
+let newsfeed = [
+    {
+        username: "Larrubia",
+        timeline: "Im the teacher"
+    }
+
+    {
+        username: "Javi",
+        timeline: "Im the owner"
+    }
+
+    {
+        username: "Guest",
+        timeline: "Im a guest"
+    }
+]
+
