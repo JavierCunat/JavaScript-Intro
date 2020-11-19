@@ -155,7 +155,7 @@ else if (Number(ageCalculator) >= 80){
 }
 }
 
-fucntion checkDriverAge(ageCalculator){
+let a = fucntion checkDriverAge(ageCalculator){
    // let ageCalculator = console.log("What is your age")
 
    if (Number(ageCalculator) < 18) {
@@ -166,3 +166,43 @@ fucntion checkDriverAge(ageCalculator){
        return "Powering on. Enjoy your ride"
    }
 }
+
+//                                 Video 121 Udemy Exercises
+
+// using this array,
+// var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+
+
+// 1. Remove the Banana from the array.
+
+// 2. Sort the array in order.
+
+// 3. Put "Kiwi" at the end of the array.
+
+// 4. Remove "Apples" from the array.
+
+// 5. Sort the array in reverse order. (Not alphabetical, but reverse
+// the current Array i.e. ['a', 'c', 'b'] becomes ['b', 'c', 'a'])
+
+//you should have at the end:
+//["Kiwi", "Oranges", "Blueberries"]
+
+let array = ["Banana", "Apples", "Oranges", "Blueberries"];
+
+array.shift(); //Shifts to the left removing Banana
+
+array.sort(); //sorts original array
+
+array.push("Kiwi"); //pushes kiwi to last element in array
+
+array.splice(0,1); //replaces at index 1 for nothing
+
+array.reverse(); //puts array in reverse order
+
+// using this array,
+// var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+// access "Oranges".
+
+let array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+
+console.log(array2[1][1][0]);
