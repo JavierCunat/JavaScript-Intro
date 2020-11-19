@@ -234,12 +234,12 @@ let newsfeed = [
     {
         username: "Larrubia",
         timeline: "Im the teacher"
-    }
+    },
 
     {
         username: "Javi",
         timeline: "Im the owner"
-    }
+    },
 
     {
         username: "Guest",
